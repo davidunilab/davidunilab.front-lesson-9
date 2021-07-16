@@ -1,0 +1,146 @@
+:root{
+    --icon-size: 44px;
+}
+
+.humburger{
+    display: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+.header, section, footer{
+    margin-top: 30px;
+}
+
+.logo {
+    max-width: 122px;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+input, textarea{
+    padding: 10px;
+    border: 0.5px solid #e2e2e2;
+    resize:none;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+button {
+    margin-left: 30px;
+    width: 100px;
+    border: none;
+    text-align: center;
+    padding: 8px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ 
+
+    nav {
+        ul {
+            display: flex;
+
+            li {
+                margin-left: 45px;
+
+                &:first-child {
+                    margin: 0;
+                }
+            }
+
+            a {
+                color: #707070;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.form-section{
+        .inputs {
+            max-width: 430px;
+            width: 100%;
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+           
+        }
+        .inputs, label {
+            color: #2E2E2E;
+            margin-bottom: 7px;
+        }
+
+        input, textarea{
+            margin-bottom: 20px;
+        }
+        .inputs, button{
+            margin-left: 50px;
+        }
+}
+
+
+.footer, button {
+    background-color: #2E2E2E;
+    color: #F2F2F2;
+}
+
+
+.footer{
+
+    margin-top:100px;
+    padding: 56px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* icons styles */
+.icons {
+    max-width: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    & > div{
+        cursor: pointer;
+    }
+}
+.fa-facebook {
+    font-size: var(--icon-size);
+    color: #F2F2F2;
+}
+.fa-instagram {
+     font-size: 32px;
+    /* background-color: #F2F2F2; */
+    color:#2E2E2E;
+}
+.instagram {
+    width: var(--icon-size);
+    height: var(--icon-size);
+    border-radius: 50%;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
